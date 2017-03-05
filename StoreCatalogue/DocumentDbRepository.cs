@@ -82,7 +82,7 @@ namespace StoreCatalogue
             }
             else
             {
-                throw new StoreCatalogueException("Category name already exists.");
+                throw new StoreCatalogueException("Category name already exist.");
             }
 
         }
@@ -109,12 +109,12 @@ namespace StoreCatalogue
                 }
                 else
                 {
-                    throw new StoreCatalogueException("Sub Category Name already exists.");
+                    throw new StoreCatalogueException("Sub Category Name already exist.");
                 }
             }
             else
             {
-                throw new StoreCatalogueException("Category does not exists.");
+                throw new StoreCatalogueException("Category does not exist.");
             }
 
         }
@@ -140,12 +140,12 @@ namespace StoreCatalogue
                 }
                 else
                 {
-                    throw new StoreCatalogueException("Product already exists.");
+                    throw new StoreCatalogueException("Product already exist.");
                 }
             }
             else
             {
-                throw new StoreCatalogueException("SubCategory does not exists.");
+                throw new StoreCatalogueException("SubCategory does not exist.");
             }
         }
 
@@ -201,7 +201,7 @@ namespace StoreCatalogue
             }
             else
             {
-                throw new StoreCatalogueException("Category does not exists.");
+                throw new StoreCatalogueException("Category does not exist.");
             }
         }
 
@@ -220,7 +220,7 @@ namespace StoreCatalogue
             }
             else
             {
-                throw new StoreCatalogueException("subCategory does not exists.");
+                throw new StoreCatalogueException("subCategory does not exist.");
             }
         }
 
@@ -239,7 +239,7 @@ namespace StoreCatalogue
             }
             else
             {
-                throw new StoreCatalogueException("product does not exists.");
+                throw new StoreCatalogueException("product does not exist.");
             }
         }
 
